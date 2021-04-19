@@ -1,9 +1,10 @@
 name: Protoc
 #
-on:
-  push:
-    branches:
-      - 'main'
+on: workflow_dispatch
+#on:
+  #push:
+  #  branches:
+  #    - 'main'
     #
   #
 #

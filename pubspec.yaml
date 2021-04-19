@@ -1,5 +1,5 @@
 name: nakama_flutter
-description: A new flutter plugin project.
+description: Dart client for Nakama server.
 version: 0.0.1
 author:
 homepage:

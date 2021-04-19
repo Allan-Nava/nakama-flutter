@@ -21,7 +21,7 @@ jobs:
           protoc-version: '3.13.0'
           enable-dart: true
           dart-version: '2.9.2'
-      - run: protoc -Iprotos protos/* --dart_out=grpc:..lib/src/generated
+      - run: protoc -I. protos/* --dart_out=grpc:..lib/src/generated
     #
   #
 #

@@ -1,6 +1,8 @@
 # nakama_flutter
 
-A new flutter plugin project.
+> Dart client for Nakama server.
+
+[Nakama](https://github.com/heroiclabs/nakama) is an open-source server designed to power modern games and apps. Features include user accounts, chat, social, matchmaker, realtime multiplayer, and much [more](https://heroiclabs.com).
 
 ## Getting Started
 

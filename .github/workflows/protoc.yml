@@ -21,7 +21,7 @@ jobs:
           protoc-version: '3.13.0'
           enable-dart: true
           dart-version: '2.9.2'
-      - run: protoc -I. protos/github.com/heroiclabs/nakama-common/api/api.proto protos/github.com/heroiclabs/nakama-common/api/realtime.proto -I./grpc-gateway-2.0.0-beta.5/third_party/googleapis protos/apigrpc.proto --dart_out=grpc:..lib/src/generated
+      - run: protoc -I. ./protos/github.com/heroiclabs/nakama-common/api/api.proto ./protos/github.com/heroiclabs/nakama-common/api/realtime.proto -I.protos/grpc-gateway-2.0.0-beta.5/third_party/googleapis protos/apigrpc.proto --dart_out=grpc:..lib/src/generated
     #
   #
 #

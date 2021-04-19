@@ -7,12 +7,21 @@ on:
     #
   #
 #
-steps:
-  - uses: actions/checkout@v1
-  - uses: abelfodil/protoc-action@v1
-    with:
-      protoc-version: '3.13.0'
-      enable-dart: true
-      dart-version: '2.9.2'
-  - run: protoc -Iprotos protos/* --dart-out=lib/src/generated
-  #--js_out=path/to/js/out
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+    #
+    steps:
+      - uses: actions/checkout@v1
+      - uses: abelfodil/protoc-action@v1
+        with:
+          protoc-version: '3.13.0'
+          enable-dart: true
+          dart-version: '2.9.2'
+      - run: protoc -Iprotos protos/* --dart-out=lib/src/generated
+    #
+  #
+#

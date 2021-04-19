@@ -1,0 +1,18 @@
+name: Protoc
+#
+on:
+  push:
+    branches:
+      - 'main'
+    #
+  #
+#
+steps:
+  - uses: actions/checkout@v1
+  - uses: abelfodil/protoc-action@v1
+    with:
+      protoc-version: '3.13.0'
+      enable-dart: true
+      dart-version: '2.9.2'
+  - run: protoc -Iprotos protos/* --dart-out=lib/src/generated
+  #--js_out=path/to/js/out

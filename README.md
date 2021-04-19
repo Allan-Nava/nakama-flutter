@@ -6,6 +6,12 @@
 
 ## Getting Started
 
+You'll need to setup the server and database before you can connect with the client. The simplest way is to use Docker but have a look at the [server documentation](https://github.com/heroiclabs/nakama#getting-started) for other options.
+
+1. Install and run the servers. Follow these [instructions](https://heroiclabs.com/docs/install-docker-quickstart).
+
+
+
 This project is a starting point for a Flutter
 [plug-in package](https://flutter.dev/developing-packages/),
 a specialized package that includes platform-specific implementation code for

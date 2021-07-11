@@ -4,11 +4,21 @@
 
 [Nakama](https://github.com/heroiclabs/nakama) is an open-source server designed to power modern games and apps. Features include user accounts, chat, social, matchmaker, realtime multiplayer, and much [more](https://heroiclabs.com).
 
+## Nakama flutter sdk 
+
+Stable version: https://github.com/obrunsmann/flutter_nakama
+
+
 ## Getting Started
 
 You'll need to setup the server and database before you can connect with the client. The simplest way is to use Docker but have a look at the [server documentation](https://github.com/heroiclabs/nakama#getting-started) for other options.
 
 1. Install and run the servers. Follow these [instructions](https://heroiclabs.com/docs/install-docker-quickstart).
+2. The Flutter SDK can be imported with pubspec.yaml 
+
+```yaml
+nakama_flutter
+```
 
 
 # Protocol Buffers

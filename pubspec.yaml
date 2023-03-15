@@ -12,7 +12,7 @@ dependencies:
   flutter:
     sdk: flutter
   #
-  chopper: ^4.0.1
+  chopper: ^6.0.0
   fixnum: ^1.0.0
   grpc: ^3.0.0
   json_annotation: ^4.0.1

@@ -5,7 +5,7 @@ author: Allan Nava
 homepage:
 #
 environment:
-  sdk: ">=2.7.0 <3.0.0"
+  sdk: "<4.0.0"
   flutter: ">=1.20.0 <2.0.0"
 
 dependencies:
